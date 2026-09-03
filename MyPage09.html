@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- HTML Form tag (Block)/องค์ประกอบแบบฟอร์ม(inline) -->
+   <form action = "" method = "">
+  <!-- ตระกูลป้อน -->
+  <label for = "">ป้อนอะไรก็ได้:</label>
+  <input type = "text" name = "ป้อนอะไรก็ได้" id = "ป้อนอะไรก็ได้" placeholder = "ป้อนอะไรก็ได้" required>
+  <br></br>
+  <label for = "">ป้อนอายุ:</label>
+  <input type = "number" name = "ป้อนอายุ" id = "ป้อนอายุ" placeholder = "ป้อนอายุ" required>
+  <br></br>
+  <label for = "">ป้อนรหัส:</label>
+  <input type = "text" name = "ป้อนรหัส" id = "ป้อนรหัส" placeholder = "ป้อนรหัส" required>
+  <br></br>
+  <label for = "">ป้อนเมล:</label>
+  <input type = "email" name = "ป้อนเมล" id = "ป้อนเมล" placeholder = "ป้อนเมล" required>
+  <br></br>
+  <label for = "">ป้อนเนื้อหาเยอะ:</label>
+  <textarea name = "" id = ""></textarea>
+  <br></br> 
+  <!-- ตระกูลเลือก -->
+  <label for = "">เลือกเพศ:</label>
+  <input type = "radio" name = "เลือกเพศ" id = "ชาย" value = "ชาย" required checked>ชาย
+  <input type = "radio" name = "เลือกเพศ" id = "หญิง" value = "หญิง" required>หญิง
+  <input type = "radio" name = "เลือกเพศ" id = "ไม่ระบุ" value = "ไม่ระบุ" required>ไม่ระบุ
+  <br></br>
+  <label for = "">จังหวัด:</label>
+  <select name = "จังหวัด" id = "จังหวัด" required> <!-- dropdown/combobox -->
+    <option value = "กรุงเทพมหานคร" selected>กรุงเทพมหานคร</option>
+    <option value = "นนทบุรี">นนทบุรี</option>
+    <option value = "ปทุมธานี">ปทุมธานี</option>
+    <option value = "สมุทรปราการ">สมุทรปราการ</option>
+  </select>
+  <br></br>
+  <label for = "">สาขาวิชา:</label>
+  <select name="" id="" size = "2"><!-- listbox -->
+    <option value = "วิศวกรรมซอฟต์แวร์">วิศวกรรมซอฟต์แวร์</option>
+    <option value = "วิศวกรรมคอมพิวเตอร์" selected>วิศวกรรมคอมพิวเตอร์</option>
+    <option value = "วิศวกรรมอิเล็กทรอนิกส์">วิศวกรรมอิเล็กทรอนิกส์</option>
+  </select>
+  <br></br>
+  <!-- เลือกได้มากกว่า 1 หรือ ไม่เลือกก็ได้ -->
+   <label for = "">เลือกงานอดิเรก:</label>
+  <input type = "checkbox" name = "เลือกงานอดิเรก" id = "งานอดิเรก1" value = "งานอดิเรก1">
+  <label for = "">เล่นเกม</label>
+  <input type = "checkbox" name = "เลือกงานอดิเรก" id = "งานอดิเรก2" value = "งานอดิเรก2">
+  <label for = "">อ่านหนังสือ</label>
+  <input type = "checkbox" name = "เลือกงานอดิเรก" id = "งานอดิเรก3" value = "งานอดิเรก3">
+  <label for = "">ฟังเพลง</label>
+  <br></br>
+  <!-- เลือกไฟล์แบบไม่กรอง -->
+  <label for = "">เลือกไฟล์:</label>
+  <input type = "file" name = "เลือกไฟล์" id = "เลือกไฟล์" accept = ".jpg, .png, .pdf">
+  <br></br>
+  <!-- เลือกไฟล์แบบกรอง -->
+  <label for = "">เลือกไฟล์:</label>
+  <input type = "file" name = "เลือกไฟล์" id = "เลือกไฟล์" accept = ".doc, .docx, .pdf,image/*">
+  <br></br>
+  <!-- เลือก วัน เวลา -->
+  <label for = "">เลือกวัน:</label>
+  <input type = "date" name = "เลือกวัน" id = "เลือกวัน">
+  <br></br>
+  <label for = "">เลือกเวลา:</label>
+  <input type = "time" name = "เลือกเวลา" id = "เลือกเวลา">
+  <br></br>
+  <label for = "">วันเวลาเข้าทำ:</label>
+  <input type = "datetime-local" name = "วันเวลาเข้าทำ" id = "วันเวลาเข้าทำ">
+  <!-- ตระกูลปุ่ม -->
+  <br></br>
+  <input type = "submit" value = "ส่งข้อมูล">
+  <br></br>
+  <input type = "reset" value = "ล้างข้อมูล">
+  <br></br>
+  <button>ตกลง/บันทึก/ลบ/ใช่/ยกเลิก</button>
+</body>
+</html>
